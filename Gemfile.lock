@@ -1,0 +1,52 @@
+GIT
+  remote: git@github.com:logie17/ruby-webservice-swigclient.git
+  revision: fc3b21391eae84f6752ecb32373a37838d7fcbfe
+  specs:
+    webservice-swigclient (0.0.1)
+      curly-lib (~> 0.0.1)
+
+PATH
+  remote: .
+  specs:
+    sinatra-swig (0.0.1)
+      curly-lib
+      webservice-swigclient
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    curly-lib (0.0.1)
+    diff-lcs (1.2.5)
+    rack (1.5.2)
+    rack-protection (1.5.3)
+      rack
+    rake (10.3.2)
+    rspec (3.0.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
+    rspec-core (3.0.1)
+      rspec-support (~> 3.0.0)
+    rspec-expectations (3.0.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.0.0)
+    rspec-mocks (3.0.1)
+      rspec-support (~> 3.0.0)
+    rspec-support (3.0.0)
+    sinatra (1.4.5)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.3)
+  curly-lib (~> 0.0.1)
+  rake
+  rspec
+  sinatra
+  sinatra-swig!
+  webservice-swigclient!
