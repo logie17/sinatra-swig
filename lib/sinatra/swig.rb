@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require 'webserviceswigclient'
+require 'webservice/swigclient'
 
 client = WebServiceSwigClient.new(
   :api_key       => '123',
